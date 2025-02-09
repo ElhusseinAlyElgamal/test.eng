@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="smoke">
+ <test name="smoke test on edge">
+     <classes>
+         <class name="firstsesstionNG.annotations">
+             <methods>
+                 <include name="testcase2"/>
+
+             </methods>
+
+
+
+         </class>
+
+
+
+     </classes>
+
+
+
+ </test>
+    <test name="testcase2">
+        
+    </test>
+
+
+
+
+
+</suite>
